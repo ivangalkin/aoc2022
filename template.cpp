@@ -22,8 +22,15 @@
      }                  \
      }while(0)
 
+namespace {
+
+}
 
 int _main() {
-    std::cout << "Hello, World!" << std::endl;
+    int64_t result0 = 0;
+    int64_t result1 = 0;
+
+    std::cout << result0 << std::endl;
+    std::cout << result1 << std::endl;
     return 0;
 }
