@@ -14,7 +14,7 @@
 #include <assert.h>
 
 
-std::vector<std::vector<int64_t>> input = {{18814,
+static std::vector<std::vector<int64_t>> input = {{18814,
                                            }, {
                                                    1927,
                                                    12782,
