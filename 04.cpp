@@ -1062,7 +1062,7 @@ bool overlaps(ElfPair f, ElfPair s) {
            (f_from <= s_to && s_to <= f_to);
 }
 
-int main() {
+int _4() {
     int64_t result0 = 0;
     int64_t result1 = 0;
 
