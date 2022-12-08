@@ -22,6 +22,8 @@
      }                  \
      }while(0)
 
+#define myprint(arg) do { std::cout << "" #arg << " = " << arg << std::endl; } while(0)
+
 namespace {
 
 }
@@ -30,7 +32,7 @@ int _main() {
     int64_t result0 = 0;
     int64_t result1 = 0;
 
-    std::cout << result0 << std::endl;
-    std::cout << result1 << std::endl;
+    myprint(result0);
+    myprint(result1);
     return 0;
 }
