@@ -16,4 +16,5 @@ add_executable(aoc2022
         10.cpp
         11_1.cpp
         11_2.cpp
+        12.cpp
         )
