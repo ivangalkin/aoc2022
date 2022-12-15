@@ -40,6 +40,7 @@ namespace {
                 return i + size;
             }
         }
+        return std::string::npos;
     }
 }
 
