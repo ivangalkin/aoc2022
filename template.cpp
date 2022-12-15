@@ -24,8 +24,17 @@
 
 #define myprint(arg) do { std::cout << "" #arg << " = " << arg << std::endl; } while(0)
 
+using ll = int64_t;
+
 namespace {
 
+    std::vector<std::string> input_real {
+
+    };
+
+    decltype(input_real) input_test;
+//    auto &input = input_test;
+    auto &input = input_real;
 }
 
 int _main() {
