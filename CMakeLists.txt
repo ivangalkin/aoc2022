@@ -21,4 +21,6 @@ add_executable(aoc2022
         14.cpp
         15.cpp
         16.cpp
+        16_minor_speedup.cpp
+        17.cpp
         )
